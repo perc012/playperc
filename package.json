@@ -1,29 +1,27 @@
 {
-  "name": "express-init-template",
-  "version": "1.5.0",
-  "description": "This is a basic Express application template designed to help you create APIs quickly. It includes essential configurations and setup for starting an Express server.",
+  "name": "playperc",
+  "version": "1.0.0",
+  "description": "Esta es una plantilla básica de aplicación Express diseñada para ayudarte a crear APIs rápidamente. Incluye configuraciones esenciales y la preparación necesaria para iniciar un servidor Express.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js",
-    "dev": "nodemon index.js",
-    "lint": "biome lint",
-    "format": "biome check --write"
+    "dev": "nodemon index.js"
   },
-  "keywords": [
-    "express",
-    "init",
-    "template"
-  ],
-  "author": "Mario Girón Martín",
-  "license": "MIT",
+  "keywords": [],
+  "author": "Pablo Ruiz",
+  "license": "ISC",
   "dependencies": {
-    "cors": "^2.8.5",
-    "dotenv": "^16.3.1",
-    "express": "^5.0.0"
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.10.0",
+    "cors": "^2.8.6",
+    "dotenv": "^16.6.1",
+    "express": "^5.2.1",
+    "express-fileupload": "^1.5.2",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.22.3",
+    "sequelize": "^6.37.8"
   },
   "devDependencies": {
-    "@biomejs/biome": "1.9.4",
-    "@types/express": "^5.0.0",
     "nodemon": "^3.0.1"
   }
 }
