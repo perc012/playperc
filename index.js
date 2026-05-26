@@ -16,6 +16,7 @@ server.listen(PORT);
 server.on("listening", () => {
     console.log(`Server listening on port ${PORT}`);
     connectToDB ();
+    const {Song, Artist, User} = require('./src/models')
 });
 
 server.on("error", (error) => {
